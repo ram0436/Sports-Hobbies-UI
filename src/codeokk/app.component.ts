@@ -23,7 +23,7 @@ export class AppComponent {
     this.productService.getAppColor().subscribe((response: any) => {
       document.documentElement.style.setProperty(
         "--dynamic-app-color",
-        "#40E0D0"
+        "#0080FF"
       );
     });
   }
